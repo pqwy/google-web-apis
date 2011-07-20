@@ -17,12 +17,25 @@ Cabal-version:       >=1.2
 
 
 Library
-  -- Modules exported by the library.
-  -- Exposed-modules:     
+  Exposed-modules:     Web.Google.HTTP 
+                       Web.Google.Maps 
+                       Web.Google.GCal 
+
+  Other-modules:       Web.Google.Utilities 
   
-  -- Packages needed in order to build this package.
-  -- Build-depends:       
+  Build-depends:       base == 4.*,
+                       time == 1.2.*,
+                       bytestring == 0.9.*,
+                       enumerator == 0.4.*,
+                       transformers == 0.2.*,
+                       MonadCatchIO-transformers == 0.2.*,
+                       http-types == 0.6.*,
+                       http-enumerator == 0.6.*,
+                       attoparsec == 0.9.*,
+                       attoparsec-enumerator == 0.2.*,
+                       aeson == 0.3.*,
+                       case-insensitive == 0.2.*,
+                       authenticate == 0.9.1.6
   
-  -- Modules not exported by this package.
-  -- Other-modules:       
+  ghc-options:         -Wall -funbox-strict-fields -O
   
