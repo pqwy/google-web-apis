@@ -1,0 +1,28 @@
+Name:                google-web-apis
+Version:             0.1
+Synopsis:            Google HTTP APIs
+Description:         Some simple and useful tidbits to wrap calls to various
+                     Google APIs.
+License:             BSD3
+License-file:        LICENSE
+Author:              David Kaloper
+Maintainer:          dkaloper@mjesec.ffzg.hr
+-- Copyright:           
+
+Category:            Web
+Build-type:          Simple
+
+-- Extra-source-files:  
+Cabal-version:       >=1.2
+
+
+Library
+  -- Modules exported by the library.
+  -- Exposed-modules:     
+  
+  -- Packages needed in order to build this package.
+  -- Build-depends:       
+  
+  -- Modules not exported by this package.
+  -- Other-modules:       
+  
