@@ -20,8 +20,10 @@ Library
   Exposed-modules:     Web.Google.HTTP 
                        Web.Google.Maps 
                        Web.Google.GCal 
+                       Data.Time.RFC3339
 
   Other-modules:       Web.Google.Utilities 
+                       Network.HTTP.Types.UglyOrphanInstance
   
   Build-depends:       base == 4.*,
                        time == 1.2.*,
