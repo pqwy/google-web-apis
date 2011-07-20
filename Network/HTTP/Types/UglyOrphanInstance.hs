@@ -1,5 +1,5 @@
 {-# LANGUAGE ViewPatterns  #-}
-{-# OPTIONS_GHC -Wall -fno-warn-orphans #-}
+{-# OPTIONS_GHC -fno-warn-orphans #-}
 
 -- | This module exists just to expose an orphan instance of Show for Requests.
 -- It would obviously fit better in the module the type is defined in, but

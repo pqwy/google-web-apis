@@ -1,6 +1,4 @@
 {-# LANGUAGE OverloadedStrings, GADTs, ExistentialQuantification, DeriveDataTypeable  #-}
-{-# OPTIONS_GHC -Wall #-}
-{-# LANGUAGE PackageImports  #-}
 
 {- |
 Module      :  Web.Google.HTTP
@@ -29,7 +27,7 @@ import           Data.Typeable (Typeable (..))
 import           Control.Monad
 
 import           Control.Monad.IO.Class (MonadIO (..))
-import qualified "MonadCatchIO-transformers" Control.Monad.CatchIO as CIO
+import qualified Control.Monad.CatchIO as CIO
 import           Control.Exception
 
 import           Data.ByteString.Char8 (ByteString)

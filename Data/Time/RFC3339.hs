@@ -1,5 +1,4 @@
 {-# LANGUAGE BangPatterns  #-}
-{-# OPTIONS_GHC -Wall #-}
 
 module Data.Time.RFC3339 (
     parseRFC3339, readRFC3339, parseISODate, readISODate, showRFC3339

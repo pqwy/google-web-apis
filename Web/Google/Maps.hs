@@ -1,5 +1,4 @@
 {-# LANGUAGE OverloadedStrings #-}
-{-# OPTIONS_GHC -Wall #-}
 
 module Web.Google.Maps (
     distanceIter, distance, distanceWith

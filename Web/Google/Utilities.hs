@@ -1,4 +1,3 @@
-{-# OPTIONS_GHC -Wall #-}
 
 module Web.Google.Utilities (
       liftIteratee, liftIterateeIO, addHeaders , addQuery, parseUrl'
